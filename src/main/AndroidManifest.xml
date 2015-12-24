@@ -1,0 +1,13 @@
+<manifest package="me.codeboy.android.common"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:name=".component.CBApplication"
+        >
+        <activity
+            android:name=".ui.CBUpdateUi"
+            android:theme="@android:style/Theme.Dialog"
+            ></activity>
+    </application>
+
+</manifest>

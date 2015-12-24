@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/cb_12dp"
+        android:text="@string/cb_update_title"
+        android:textColor="@color/white"
+        android:background="@color/cb_btn_normal"
+        android:textSize="@dimen/cb_20sp" >
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cb_white"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/cb_25dp"
+        android:paddingLeft="@dimen/cb_20dp"
+        android:paddingRight="@dimen/cb_20dp"
+        android:paddingTop="@dimen/cb_25dp" >
+
+        <TextView
+            android:id="@+id/updateContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left|center_vertical"
+            android:textColor="@color/black"
+            android:textSize="@dimen/cb_16sp" >
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/cb_white"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/cbUpdateBtn1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/cb_1px"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/cb_40dp"
+            android:paddingRight="@dimen/cb_40dp"
+            android:background="@drawable/cb_update_btn"
+            android:gravity="center"
+            android:text="@string/cb_update_btn1"
+            android:textColor="@color/white"
+            android:textSize="@dimen/cb_18sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/cbUpdateBtn2"
+            android:layout_width="@dimen/cb_0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/cb_1px"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/cb_40dp"
+            android:paddingRight="@dimen/cb_40dp"
+            android:background="@drawable/cb_update_btn"
+            android:gravity="center"
+            android:text="@string/cb_update_btn2"
+            android:textColor="@color/white"
+            android:textSize="@dimen/cb_18sp" >
+        </TextView>
+    </LinearLayout>
+
+</LinearLayout>

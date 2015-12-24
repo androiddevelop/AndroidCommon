@@ -1,0 +1,9 @@
+<resources>
+    <string name="cb_app_name">android-common</string>
+    <string name="none"></string>
+    <string name="cb_app_error">程序GG开了个小差</string>
+    <string name="cb_no_data">暂无数据</string>
+    <string name="cb_update_title">更 新 提 示</string>
+    <string name="cb_update_btn1">忽略本次</string>
+    <string name="cb_update_btn2">开始更新</string>
+</resources>
