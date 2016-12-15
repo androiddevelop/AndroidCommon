@@ -27,7 +27,7 @@ public class CBExceptionHandler implements UncaughtExceptionHandler {
 	/**
 	 * 单例模式获取异常句柄
 	 * 
-	 * @return
+	 * @return 异常handler
 	 */
 	public static CBExceptionHandler getInstance() {
 		if (crashHandler == null)
