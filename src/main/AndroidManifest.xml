@@ -1,13 +1,13 @@
-<manifest package="me.codeboy.android.common"
-          xmlns:android="http://schemas.android.com/apk/res/android">
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="me.codeboy.android.common" >
 
-    <application
-        android:name=".component.CBApplication"
-        >
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application android:name=".component.CBApplication" >
         <activity
             android:name=".ui.CBUpdateUi"
-            android:theme="@android:style/Theme.Dialog"
-            ></activity>
+            android:theme="@android:style/Theme.Dialog" />
     </application>
 
 </manifest>
